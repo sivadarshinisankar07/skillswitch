@@ -54,48 +54,48 @@ skillswitch/
 ### Setup
 
 1. **Clone the repository**
-   ```bash
+   bash
    git clone https://github.com/sivadarshinisankar07/skillswitch.git
    cd skillswitch
-````
+   
 
 2. **Install dependencies**
 
-   ```bash
+   bash
    cd backend
    npm install
    cd ../frontend
    npm install
-   ```
+
 
 3. **Environment variables**
 
    * Create `.env` inside `backend/`:
 
-     ```env
+     env
      DATABASE_URL=your_db_url
      JWT_SECRET=your_secret
-     ```
+     
    * Create `.env` inside `frontend/`:
 
-     ```env
+     env
      API_URL=http://localhost:5000
-     ```
+     
 
 4. **Run the app**
 
    * Backend:
 
-     ```bash
+     bash
      cd backend
      npm run dev
-     ```
+     
    * Frontend:
 
-     ```bash
+     bash
      cd frontend
      expo start
-     ```
+     
 
 ## 🎮 Usage
 
@@ -118,11 +118,12 @@ Contributions are welcome!
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
+
 
 ---
 
 ⚡ This is clean, professional, and GitHub-ready — you can **paste it directly into `README.md`**.  
 
 Do you want me to also make a **short GitHub profile-style description** (like a one-liner for the repo top header)?
-```
+
+
