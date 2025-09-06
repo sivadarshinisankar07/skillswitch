@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "frontend",
+    "name": "Skill Switch",
     "slug": "frontend",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/front.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/front.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,14 +16,17 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "package": "com.kishore_kumar79.frontend",
+      "googleServicesFile":"./google-services.json"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": [
+      "expo-build-properties"
+    ],
+        "extra": {
+      "eas": {
+        "projectId": "39f04163-6154-4ee4-84d7-47ad61f72902"
+      }
     }
+
   }
 }
