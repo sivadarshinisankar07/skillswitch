@@ -123,7 +123,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ⚡ This is clean, professional, and GitHub-ready — you can **paste it directly into `README.md`**.  
-
-Do you want me to also make a **short GitHub profile-style description** (like a one-liner for the repo top header)?
-
-
